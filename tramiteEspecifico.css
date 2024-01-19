@@ -56,7 +56,6 @@ button{
     text-align: center;
     background-color: transparent;
     cursor: pointer;
-
 }
 
 @media(max-width:447px){
@@ -154,6 +153,7 @@ a {
     min-height: 190px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 .contenedorTituloParrafoRequisito{
     align-content: center;
