@@ -188,7 +188,7 @@ a {
 
 @media(max-width:1223px){
     .tramitesYServicios{
-         height: 900px;
+         min-height: 800px;
     }
     .ingresar{
         width: 120px;
