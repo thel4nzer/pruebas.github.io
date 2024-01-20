@@ -183,12 +183,11 @@ a {
     flex-direction: column; /* Cambiado a columna para que los elementos se apilen verticalmente */
     align-items: center;
     width: 100%;
-    height: 450px;
+    min-height: 560px;
 }
 
 @media(max-width:1223px){
     .tramitesYServicios{
-         min-height: 850px;
     }
     .ingresar{
         width: 120px;
@@ -213,7 +212,6 @@ a {
     flex-wrap: wrap; /* Asegura que los botones se apilen verticalmente */
     justify-content: center;
     width: 85%;
-    height: 400px;
     background-color: transparent;
     margin-top: 20px; 
     text-align: center;
@@ -285,7 +283,6 @@ a {
     font-size: 18px;
     color: #black;
     font-weight: 300;
-
 }
 
 @media(max-width:652px){
@@ -297,21 +294,19 @@ a {
 /* FIN BOTONERA PRINCIPAL DE SERVICIOS¨*/
 
 .areasDeGobierno{
-    height: 400px;
     background-color: #f6f6f6;
     display: flex;
     align-items: center;
     flex-direction: column;
+    min-height: 340px;
 }
 
 @media(max-width:1130px){
     .areasDeGobierno{
-        height: 550px;
     }
 }
 @media(max-width:753px){
     .areasDeGobierno{
-        height: 800px;
     }
 }
 
@@ -326,7 +321,6 @@ a {
     flex-wrap: wrap; /* Asegura que los botones se apilen verticalmente */
     justify-content: center;
     width: 85%;
-    min-height: 240px;
     background-color: transparent;
     margin-top: 20px; 
     text-align: center;
@@ -369,7 +363,7 @@ a {
 
 
 .portalDeComunicacion{
-    height: 400px;
+    height: 430px;
     background-color: #white;
     display: flex;
     align-items: center;
@@ -383,7 +377,7 @@ a {
 }
 @media(max-width:685px){
     .portalDeComunicacion{
-        height: 1250px;
+        height: 1290px;
     }
 }
 
@@ -449,6 +443,33 @@ a {
     text-align: center;
     font-weight: bold;
 
+}
+
+
+.contenedorBotonVerMas{
+    display: flex;
+    flex-wrap: wrap; /* Asegura que los botones se apilen verticalmente */
+    justify-content: center;
+    width: 85%;
+    min-height: 60px;
+    background-color: transparent;
+    text-align: center;
+    align-content: center;
+
+}
+
+.botonVerMas {
+    justify-content: center;
+    width: 200px; /* Ajusta el ancho de tus botones según sea necesario */
+    min-height: 50px;
+    background-color: transparent; /* Ajusta el color de fondo según sea necesario */
+    /*border: 2px solid #c3c3c3;
+    border-radius: 8px;*/
+    display: grid;
+    text-align: center;
+    place-items: center;
+    border: 3px solid #c3c3c3;
+    border-radius: 15px;
 }
 
 /*FIN PORTAL NOTICIAS*/
