@@ -111,6 +111,7 @@ a {
     flex-direction: column; /* Cambiado a columna para que los elementos se apilen verticalmente */
     align-items: center;
     width: 100%;
+    min-height: 500px
 }
 
 .contenedorTituloParrafo{
@@ -161,18 +162,18 @@ a {
 .contenedorTituloParrafo h2{
     font-size: 40px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .contenedorTituloParrafo h3{
     font-size: 30px;;
-    margin-left: 20px;
+    margin-left: 30px;
     text-decoration: underline;
     margin-top: 10px;
 }
 
 .contenedorTituloParrafo p{
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 10px
 }
 
