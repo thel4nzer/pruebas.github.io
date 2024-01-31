@@ -474,6 +474,14 @@ a {
     border-radius: 15px;
 }
 
+.botonVerMas:hover{
+    border: 3px solid #692e89;
+    border-radius: 15px;
+    text-decoration: underline;
+    text-decoration-color: #692e89;
+    color: #692e89;
+}
+
 /*FIN PORTAL NOTICIAS*/
 
 .pie{
