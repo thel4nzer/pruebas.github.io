@@ -142,8 +142,16 @@ a {
 }
 
 .contenedorTexto{
-    width: 80%;
+    width: 76%;
     min-height: 200px;
+    margin-left: 4%;
+}
+
+@media(max-width:520px){
+    .contenedorTexto{
+        width: 100%;
+    }
+
 }
 
 .botonInicio{
@@ -162,18 +170,28 @@ a {
 .contenedorTituloParrafo h2{
     font-size: 40px;
     margin-top: 20px;
-    margin-left: 30px;
 }
+
+@media(max-width:447px){
+    .contenedorTituloParrafo h3{
+        margin-left: 0px;
+    }
+}
+
+@media(max-width:447px){
+    .contenedorTituloParrafo h2{
+        margin-left: 0px;
+    }
+}
+
 .contenedorTituloParrafo h3{
     font-size: 30px;;
-    margin-left: 30px;
     text-decoration: underline;
     margin-top: 10px;
 }
 
 .contenedorTituloParrafo p{
     font-size: 20px;
-    margin-left: 30px;
     margin-top: 10px
 }
 
